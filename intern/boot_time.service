@@ -1,0 +1,8 @@
+[Unit]
+Description=Boot Time Script
+
+[Service]
+ExecStart=/bin/bash ~/intern_DGIST/boot_time.sh
+
+[Install]
+WantedBy=default.target
